@@ -1,0 +1,239 @@
+
+
+.box{
+
+padding:1%;	
+margin:1%;	
+text-align:center;
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:400;
+	margin:10px 0;
+}
+body{
+	margin:0;
+	padding : 0;
+	width: 100%;
+	height: 100%;
+    background-color: #d2d6de;
+}
+.Input{
+	
+	padding:8px;
+	border:none;
+	border-bottom:1px solid #ccc;
+	width:80%;
+	margin:2%;
+	
+}
+header{
+	   background-color: white;
+    top: 0;
+    width: 100%;
+    border-bottom: black 1px solid;
+    margin-bottom: 10px;
+    text-align: center;
+	padding-top:8px;
+	
+	
+}
+
+input[type="submit"]{
+    /* change these properties to whatever you want */
+		
+		font-size: 17px;
+		padding: 5%;
+		width: 150px;
+		color:black;
+		background-color:#3c8dbc;
+		border-color:#367fa9;
+		border-radius:5%;
+		text-align:center;
+}
+input[type="reset"]{
+    /* change these properties to whatever you want */
+		
+		font-size: 17px;
+		padding: 5%;
+		width: 150px;
+		color:black;
+		background-color:#3c8dbc;
+		border-color:#367fa9;
+		border-radius:5%;
+		text-align:center;
+}
+img {	
+  max-width: 75%;
+}
+.up{
+	margin-top:10%;
+}
+.color{
+	
+	background-color:#fff;
+	border:1px solid black;
+	border-radius:10px;	
+}
+.colorsamll{
+	
+	background-color:#3c8dbc;
+	border:1px solid black;
+	border-radius:10px;	
+	font-size: 1.5em;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333	;
+
+}
+
+li {
+  float: left;
+}
+#left{
+	float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+.selected{
+	background-color:#111;
+}
+
+.BoxTracks{
+	
+	border:1px solid black;
+	background-color:#367fa9;
+	padding:1%;	
+	margin:1%;	
+	float:right;
+	font-size:1,5em;
+
+}
+
+
+
+
+/*    		Accordion		        */
+/*      		       				*/
+/*     		        				*/
+.accordionbox-content {
+	text-align:center;
+	padding:5%;
+	overflow: hidden;
+	background:  #367fa9;
+	display:none;
+	border-bottom:1px solid black; 
+	border-top:1px solid black; 
+   
+}
+  
+
+
+.accordionbox input:checked ~ .accordionbox-content {
+  display: block;
+  
+}
+.accordionbox input {
+  display: none;
+ 
+}
+.accordionbox label {
+display: block;
+    background-color: #3c8dbc;
+    color: black;
+    font-weight: bold;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+/*     	Accordion end	       	*/
+
+
+/*            Table styling                   */
+
+th{
+	text-align:center;
+	padding:3%;
+	width:25%;
+	border:1px solid black;
+}
+ td {
+	text-align:center;
+	border:1px solid black;
+}
+
+
+/*       end of     Table styling                   */
+
+.RainBow{
+padding : 1em;
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+
+  background-color: #E4E4D9;
+
+  
+  background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+	
+}
+.left{
+	
+	float:left;
+	display:inline-table;
+}
+
+.tab{
+	
+  display: table;
+}
+
+.imgright{
+
+
+  vertical-align: middle;
+  display: table-cell;
+}
+span {
+  vertical-align: middle;
+  
+
+}
+a{
+	text-decoration: none;
+	color:black;
+	
+	
+}
+
